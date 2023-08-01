@@ -1,0 +1,41 @@
+{% load static %}
+{% include 'base/nav.html' %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>BLOG</title>
+  <meta name="description" content="Personal Blog">
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class="content">
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="header">
+        <h1>BDIWY'S BLOG</h1>
+      </div>
+      <div class="row">
+        {% for x in context %}
+        <div class="card">
+          <a href={% url 'Blog' x.title %} style="text-decoration: none; color: black;">
+            <h2>{{x.title}}</h2>
+          </a>
+          <p>{{x.body|slice:50}} ....</p><small>{{x.created_at}}</small>
+          <br>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="" async defer></script>
+</body>
+
+</html>
+{% endblock content %}
