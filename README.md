@@ -37,7 +37,7 @@ admin panel account :
 - User : admin
 - Password : admin
 
-# Source
+## Source
 - for vedio on [youtube](https://www.youtube.com/watch?v=jBzwzrDvZ18&t=24495s&ab_channel=freeCodeCamp.org) on 6:47:23
 - for the orignal [repo]( https://github.com/tomitokko/django-blog)
 
