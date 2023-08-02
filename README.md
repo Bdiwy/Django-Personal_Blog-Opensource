@@ -20,12 +20,8 @@ $ python manage.py migrate
 $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
-admin panel account :
-- User : admin
-- Password : admin
-# Load the site at http://127.0.0.1:8000
-
-if u got any error like 
+- Load the site at http://127.0.0.1:8000
+ if u got any error like 
 ``` 
 error no permission to access this port in django runserver
 ```
@@ -34,6 +30,11 @@ just try to change the port like
 ``` 
 http://127.0.0.1:another_port_num
 ```
+>for ex : http://127.0.0.1:9090
+admin panel account :
+- User : admin
+- Password : admin
+
 # Source
 - for vedio on [youtube](https://www.youtube.com/watch?v=jBzwzrDvZ18&t=24495s&ab_channel=freeCodeCamp.org) on 6:47:23
 - for the orignal [repo]( https://github.com/tomitokko/django-blog)
