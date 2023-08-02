@@ -35,8 +35,8 @@ just try to change the port like
 http://127.0.0.1:another_port_num
 ```
 # Source
-for vedio on [youtube](https://www.youtube.com/watch?v=jBzwzrDvZ18&t=24495s&ab_channel=freeCodeCamp.org) on 6:47:23
-for the orignal [repo]( https://github.com/tomitokko/django-blog)
+- for vedio on [youtube](https://www.youtube.com/watch?v=jBzwzrDvZ18&t=24495s&ab_channel=freeCodeCamp.org) on 6:47:23
+- for the orignal [repo]( https://github.com/tomitokko/django-blog)
 
 ## 🤝 Contributing
 
