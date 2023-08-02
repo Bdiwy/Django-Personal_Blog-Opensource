@@ -21,14 +21,12 @@ $ python manage.py createsuperuser
 $ python manage.py runserver
 ```
 # Load the site at http://127.0.0.1:8000
+if u got any error like ``` error no permission to access this port in django runserver ```
+just try to change the port like ``` http://127.0.0.1:anthoer_port_num ```
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/djangox/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/Bdiwy/Django-Personal_Blog-Opensource/blob/main/CONTRIBUTING.md).
 
 ## ⭐️ Support
 
 Give a ⭐️  if this project helped you!
-
-## License
-
-[The MIT License](LICENSE)
