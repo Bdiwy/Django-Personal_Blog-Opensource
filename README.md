@@ -12,17 +12,15 @@
 
 ## 📖 Installation
 Django-Personal_Blog-Opensource
-can be installed via cloneing the repo to your local computer and change into the proper directory.
+can be installed via cloneing the repo to your local computer and follow the instractions on windows or linux.
 ```
 $ git clone https://github.com/Bdiwy/Django-Personal_Blog-Opensource.git
 $ cd Django-Personal_Blog-Opensource/Blog
-
-```
 $ python manage.py migrate
 $ python manage.py createsuperuser
 $ python manage.py runserver
-# Load the site at http://127.0.0.1:8000
 ```
+# Load the site at http://127.0.0.1:8000
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/wsvincent/djangox/blob/master/CONTRIBUTING.md).
