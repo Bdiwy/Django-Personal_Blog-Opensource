@@ -31,6 +31,8 @@ just try to change the port like
 http://127.0.0.1:another_port_num
 ```
 >for ex : http://127.0.0.1:9090
+
+
 admin panel account :
 - User : admin
 - Password : admin
