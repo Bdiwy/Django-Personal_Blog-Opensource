@@ -15,7 +15,20 @@
     </head>
     <body>
         <div class="content">
-              <form class="form" action="" method='post'>
+            {% for m in messages %}
+
+            <main>
+            <section>
+            <div class="secondary" style="text-decoration: none; color: black;">
+              {% for m in messages %}
+              <h3 class="title">{{m}}</h3>
+              {% endfor %}
+            </div>
+          </section>
+        </main>
+        {% endfor %}
+
+        <form class="form" action="" method='post'>
                 {% csrf_token %}
                 <h2>CONTACT US</h2>
                 <p type="Name:" ><input name='name' placeholder="Write your name here.."></input></p>

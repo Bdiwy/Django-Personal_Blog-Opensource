@@ -10,7 +10,6 @@
   <title>BLOG</title>
   <meta name="description" content="Personal Blog">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  <link rel="stylesheet" href="{% static 'css/messages.scss' %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -23,15 +22,14 @@
       <div class="row">
         <main>
           <section>
-            <div class="alert alert-2-secondary">
+            <div class="secondary" style="text-decoration: none; color: black;">
               {% for m in messages %}
-              <h3 class="alert-title">{{m}}</h3>
-              <p class="alert-content">Lorem ipsum</p>
+              <h3 class="title">{{m}}</h3>
               {% endfor %}
             </div>
           </section>
         </main>
-        {% for x in context %}
+        {% for x in context reversed %}
         <div class="card">
           <a href={% url 'Blog' x.title %} style="text-decoration: none; color: black;">
             <h2>{{x.title}}</h2>
