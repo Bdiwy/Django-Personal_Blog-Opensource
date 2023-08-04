@@ -3,8 +3,8 @@
 
 ## 🚀 New Features Comeing soon 
 
-- Contact page inserting data in database
-- Service page dumping data from database
+- Contact page inserting data in database ✔️
+- Service page dumping data from database ✔️
 - About page dumping data from database and social media 
 
 ----
