@@ -10,9 +10,9 @@
   <title>BLOG</title>
   <meta name="description" content="Personal Blog">
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" href="{% static 'css/messages.scss' %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body>
   <div class="content">
   <div class="row">
@@ -21,6 +21,16 @@
         <h1>BDIWY'S BLOG</h1>
       </div>
       <div class="row">
+        <main>
+          <section>
+            <div class="alert alert-2-secondary">
+              {% for m in messages %}
+              <h3 class="alert-title">{{m}}</h3>
+              <p class="alert-content">Lorem ipsum</p>
+              {% endfor %}
+            </div>
+          </section>
+        </main>
         {% for x in context %}
         <div class="card">
           <a href={% url 'Blog' x.title %} style="text-decoration: none; color: black;">
