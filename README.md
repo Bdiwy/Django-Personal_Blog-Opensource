@@ -3,10 +3,9 @@
 
 ## 🚀 New Features Comeing soon 
 
+- Contact page inserting data in database
 - Service page dumping data from database
-- About page dumping data from database
-- Contact page dumping data from database
-
+- About page dumping data from database and social media 
 
 ----
 
@@ -43,7 +42,7 @@ admin panel account :
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome! See [CONTRIBUTING.md](https://github.com/Bdiwy/Django-Personal_Blog-Opensource/blob/main/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome! See [Contributing.md](https://github.com/Bdiwy/Django-Personal_Blog-Opensource/blob/main/Contributing.md).
 
 ## ⭐️ Support
 
