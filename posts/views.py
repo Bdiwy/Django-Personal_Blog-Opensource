@@ -35,7 +35,17 @@ def contact(request):
         name=request.POST['name']
         email=request.POST['email']
         message=request.POST['message']
-        contact = Contact.objects.create(name=name, email=email , message=message)
-        messages.info(request,'thanx for useing our service')
-        return redirect('index')
+        if not name:
+            messages.info(request,'there is no name to send')
+            return redirect('contact')
+        elif not email:
+            messages.info(request,'there is no email to send')
+            return redirect('contact')
+        elif not message:
+            messages.info(request,'there is no message to send')
+            return redirect('contact')
+        else:
+            contact = Contact.objects.create(name=name, email=email , message=message)
+            messages.info(request,'thanx for useing our service')
+            return redirect('index')
     return render(request,'contact.html')
