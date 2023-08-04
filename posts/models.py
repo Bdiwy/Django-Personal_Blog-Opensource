@@ -19,4 +19,4 @@ class Contact(models.Model):
     created_at=models.DateField(default=datetime.now,blank=True)
 
     def __str__(self):
-        return self.title    
+        return self.name    
