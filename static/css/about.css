@@ -1,0 +1,64 @@
+/* CSS code for styling the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  margin-left: 20px;
+}
+
+.profile-name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.profile-title {
+  font-size: 24px;
+  color: #666666;
+}
+
+.profile-bio {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.social-links {
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+}
+
+.social-link {
+  margin-right: 10px;
+}
+
+.social-link a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: #000000;
+}
