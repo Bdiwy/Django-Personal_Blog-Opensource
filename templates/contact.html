@@ -42,30 +42,6 @@
   </div>
   <script src="" async defer></script>
 </body>
-
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contact-Me</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="{% static 'css/style.css' %}">
-        <link rel="stylesheet" href="{% static 'css/contact.css' %}">
-    </head>
-    <body>
-        <div class="content">
-              <form class="form" action="" method='post'>
-                {% csrf_token %}
-                <h2>CONTACT US</h2>
-                <p type="Name:" ><input name='name' placeholder="Write your name here.."></input></p>
-                <p type="Email:" ><input name='email' placeholder="Let us know how to contact you back.."></input></p>
-                <p type="Message:" ><input name='message' placeholder="What would you like to tell us.."></input></p>
-                <button>Send Message</button> 
-              </form>
-        
-        </div>    
-        <script src="" async defer></script>
-    </body>
 </html>
 
 {% endblock content %}
